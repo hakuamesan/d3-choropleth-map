@@ -1,0 +1,36 @@
+  body {
+      display: flex;
+      justify-content: center;
+      font-family: Roboto, sans-serif, 'Arial';
+    }
+
+    #container {
+      width: 1200px;
+      display: flex;
+      padding-top: 1rem;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    #title {
+      color: darkblue;
+      font-size: 3rem;
+    }
+
+    #description {
+      color: darkblue;
+      text-align: center;
+    }
+
+    .states {
+      fill: none;
+    }
+
+    div.tooltip {
+      position: absolute;
+      padding: 15px;
+      font: 15px sans-serif;
+      background: white;
+      pointer-events: none;
+    }
+
